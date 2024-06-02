@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="550.0" spacing="10" style="-fx-background-color: white;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="application.SectionwiseFXController">
+    <ListView fx:id="listBoxSections" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="550.0" />
+    <ListView fx:id="listBoxDetails" editable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="550.0" />
+    <Button fx:id="showDataButton" style="-fx-background-color: rosybrown;" text="Show Data" textFill="WHITE" />
+
+    <Label text="New Section" />
+    <TextField fx:id="textBoxNewSection" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
+    <Label text="Teacher" />
+    <TextField fx:id="textBoxTeacher" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
+    <Label text="Room" />
+    <TextField fx:id="textBoxRoom" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
+    <Label text="Course" />
+    <TextField fx:id="textBoxCourse" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
+    <Label text="Day" />
+    <TextField fx:id="textBoxDay" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
+    <Label text="Start Time" />
+    <TextField fx:id="textBoxStartTime" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
+    <Label text="End Time" />
+    <TextField fx:id="textBoxEndTime" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
+
+    <Button fx:id="addButton" style="-fx-background-color: rosybrown;" text="+" textFill="WHITE" />
+    <Button fx:id="deleteButton" style="-fx-background-color: rosybrown;" text="Delete" textFill="WHITE" />
+</VBox>
